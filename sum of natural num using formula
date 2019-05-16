@@ -1,0 +1,4 @@
+a=int(input())
+ sum=0
+sum=(a*(a+1))/2
+print("The sum is:",sum)
