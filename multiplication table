@@ -1,0 +1,5 @@
+a=int(input("enter the number"))
+p=1
+for i in range(0,31,1):
+	p=a*i
+	print(a,'*',i,'=',p)
