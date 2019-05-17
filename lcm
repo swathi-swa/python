@@ -1,0 +1,15 @@
+
+num1=5
+num2=10
+def lcm(num1,num2):
+    if(num1>num2):
+        g=num1
+    else:
+        g=num2
+    while(True):
+        if(g%num1==0 and g%num2==0):
+        	lcm=g
+            break
+        g=+1
+    return(lcm)
+    # your code goes here
