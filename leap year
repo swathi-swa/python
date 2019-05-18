@@ -1,3 +1,15 @@
+Write a Python program to generate the next 15 leap years starting from a given year. Populate the leap years into a list and display the list. 
+Also write the pytest test cases to test the program.
+
+Note: One pytest case is given for your reference.
+
+
+
+
+
+
+
+
 def find_leap_years(given_year):
 
     c=0
