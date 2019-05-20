@@ -13,6 +13,9 @@ def generate_ticket(airline,source,destination,no_of_passengers):
 print(generate_ticket("AI","Bangalore","London",7))
 
 
+--------------------------------------------------------------------------------------------------------------
+
+
 
 #PF-Exer-23
 def translate(bilingual_dict,english_words_list):
@@ -34,6 +37,8 @@ print("The english words are:",english_words_list)
 swedish_words_list=translate(bilingual_dict, english_words_list)
 print("The equivalent swedish words are:",swedish_words_list)
 
+------------------------------------------------------------------------------------------------------------
+
 
 //PF-Exer-24
 //This verification is based on string match.
@@ -48,7 +53,7 @@ func find_square(j int)int{
     return j*j
 }
 
-
+______________________________________________________________________________________________________________
 
 //JS-Exer-25
 
@@ -62,7 +67,7 @@ function s(a)
 
 
 
-
+_____________________________________________________________________________________________________________________
 
 
 #PF-Assgn-29
@@ -80,3 +85,25 @@ def calculate(distance,no_of_passengers):
 distance=20
 no_of_passengers=50
 print(calculate(distance,no_of_passengers))
+
+
+____________________________________________________________________________________________________________________
+
+
+
+#PF-Assgn-31
+def check_palindrome(word):
+    for i in range(0,len(word)):
+        if(word[i]!=word[len(word)-1-i]):
+            return False
+    return True
+status=check_palindrome("malaylam")
+if(status):
+    print("word is palindrome")
+else:
+    print("word is not palindrome")
+    
+    
+ ----------------------------------------------------------------------------------------------------------------------
+    
+    
