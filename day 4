@@ -136,3 +136,30 @@ print(speciality)
 
 
 -------------------------------------------------------------------------------------------------------------------------
+
+
+#PF-Assgn-33
+
+def find_common_characters(msg1,msg2):
+    ans=""
+    c=0
+    for i in range(0,len(msg1)):
+        for j in range(0,len(msg2)):
+            if(msg1[i]!="" and msg2[j]==msg1[i]):
+                if(msg1[i] in ans):
+                    continue
+                else:
+                    c=1
+                    ans+=msg1[i]
+    if(c==0):
+        return -1
+    return ans
+#Provide different values for msg1,msg2 and test your program
+msg1="I like Python"
+msg2="Java is a very popular language"
+common_characters=find_common_characters(msg1,msg2)
+print(common_characters)
+
+
+
+---------------------------------------------------------------------------------------------------------------------
