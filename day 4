@@ -33,3 +33,29 @@ print("The english words are:",english_words_list)
 
 swedish_words_list=translate(bilingual_dict, english_words_list)
 print("The equivalent swedish words are:",swedish_words_list)
+
+
+//PF-Exer-24
+//This verification is based on string match.
+
+package main
+import ("fmt")
+func main() {
+    var num int=find_square(3);
+    fmt.Println(num);
+}
+func find_square(j int)int{
+    return j*j
+}
+
+
+
+//JS-Exer-25
+
+//Start writing your code here
+function s(a)
+{
+    return a*(a+1)/2;
+}
+    console.log(s(3));
+
