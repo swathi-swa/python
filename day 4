@@ -59,3 +59,24 @@ function s(a)
 }
     console.log(s(3));
 
+
+
+
+
+
+
+#PF-Assgn-29
+def calculate(distance,no_of_passengers):
+    total_cost=distance*70//10
+    profit=no_of_passengers*80
+    if(profit>total_cost):
+        return profit-total_cost
+    else:
+        return -1
+
+
+
+#Provide different values for distance, no_of_passenger and test your program
+distance=20
+no_of_passengers=50
+print(calculate(distance,no_of_passengers))
