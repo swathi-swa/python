@@ -36,6 +36,39 @@ print(get_count(num_list))
 ---------------------------------------------------------------------------------------------------------
 
 
+
+
+Write a Python program to generate the next 15 leap years starting from a given year. Populate the leap years into a list and display the list. 
+Also write the pytest test cases to test the program.
+
+Note: One pytest case is given for your reference.
+
+
+
+
+
+#PF-Assgn-22
+
+
+def find_leap_years(given_year):
+
+    c=0
+    list_of_leap_years=[]
+    while(c<15):
+        if((given_year%4==0 and given_year%100!=0) or given_year%400==0):
+            list_of_leap_years.append(given_year)
+            c+=1
+        given_year+=1
+            
+    return list_of_leap_years
+
+list_of_leap_years=find_leap_years(2000)
+print(list_of_leap_years)
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
 Write a python function to check whether three given numbers can form the sides of a triangle. 
 Hint: Three numbers can be the sides of a triangle if none of the numbers are greater than or equal to the sum of the other two numbers.
 
