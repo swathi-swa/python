@@ -17,6 +17,32 @@ print("Sum of digits:",sum_of_digits)
 -------------------------------------------------------------------------------------------------
 
 
+//PF-Exer-16
+
+num1=5
+num2=10
+
+//Write your code here
+num1=5
+num2=10
+def lcm(num1,num2):
+    if(num1>num2):
+        g=num1
+    else:
+        g=num2
+    while(True):
+        if(g%num1==0 and g%num2==0):
+        	lcm=g
+            break
+        g=+1
+    return(lcm)
+    # your code goes here
+    
+    
+    
+    ---------------------------------------------------------------------------------------------------
+
+
 #PF-Exer-18
 
 def get_count(num_list):
