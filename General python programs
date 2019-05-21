@@ -1,4 +1,4 @@
-sample 1
+1.    sample 1
 
 
 a=input("enter the num")
@@ -9,7 +9,7 @@ print(c)
 
 -------------------------------------------------------------------------------------------
 
-Factors by factors
+2.            Factors by factors
 
 a=int(input("enter the number\n"))
 
@@ -19,7 +19,7 @@ for i in range(1,a+1):
     
     
 ------------------------------------------------------------------------------------------
-count the digits
+3.             count the digits
 
 a=int(input("enter the number"))
 count=0
@@ -29,7 +29,7 @@ while a!=0:
 print(count)
 
 ----------------------------------------------------------------------------------------
-armstrong
+4.                  armstrong
 
 a=int(input("enter the number"))
 count=0
@@ -44,7 +44,7 @@ else:
 	print(" NOT A ARMSTRONG ")
   
 --------------------------------------------------------------------------------------------------
-counting the number of factors
+5.                       counting the number of factors
 
 a=int(input("enter the number\n"))
 c=0
@@ -54,7 +54,7 @@ for i in range(1,a+1):
 print(c)
 
 -------------------------------------------------------------------------------------------------
-PALINDROME
+6,                          PALINDROME
 
 a=int(input("enter the number"))
 count=0
@@ -69,7 +69,7 @@ else:
 	print(" NOT A PALINDROME ")
   
   ---------------------------------------------------------------------------------------------------
-  prime number or not
+  7.                        prime number or not
   
   a=int(input("enter the number\n"))
 flag=0
@@ -97,7 +97,7 @@ else:
   
 ----------------------------------------------------------------------------------------------------------------
   
-reverse the number  
+8,                        reverse the number  
 
 a=int(input("enter the number"))
 count=0
@@ -109,7 +109,7 @@ print(count)
 
 ----------------------------------------------------------------------------------------------------------
 
-multiplication table
+9.                   multiplication table
 
 a=int(input("enter the number"))
 p=1
@@ -121,7 +121,7 @@ for i in range(0,31,1):
 ---------------------------------------------------------------------------------------------------------
 
 
-sum of digits
+10.                          sum of digits
 
 a=int(input("enter the number"))
 count=0
@@ -135,7 +135,7 @@ print(count)
 -----------------------------------------------------------------------------------------------------------------
 
 
-sum of natural num using formula
+11.                         sum of natural num using formula
 
 a=int(input())
  sum=0
@@ -146,7 +146,7 @@ print("The sum is:",sum)
 -------------------------------------------------------------------------------------------------------
 
 
-sum of natural number
+12.                         sum of natural number
 
 a=int(input())
 sum=0
