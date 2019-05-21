@@ -1,4 +1,0 @@
-a=input("enter the num")
-b=input("enter the num2")
-c=a+b
-print(c)
