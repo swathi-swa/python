@@ -1,2 +1,21 @@
 1.              Program to check whether the given digit is occurred in a Number
 
+# your code goes here
+num=int(input())
+a=int(input())
+flag=0
+while(num!=0):
+	rem=num%10
+	if(rem==a):
+		flag=1
+		print(a,"number FOUND in the digit")
+		break
+	num=num//10
+if(flag==0):
+	print(a,"number NOT FOUND in the digit")
+  
+  
+-----------------------------------------------------------------------------------------------------------------------------
+
+2.      Program to count the occurrence of digit
+
