@@ -117,6 +117,16 @@ elif(a & (a-1)==0):
 else:
 	print(a,"is not an power of two")
 	
+	
+					(or)
+num=int(input())
+a=2**60
+if(a%num==0):
+	print(a,"is a power of two")
+else:
+	print(a,"is not an power of two")
+	
+	
 -----------------------------------------------------------------------------------------------------------------------
 
 10.        Program to find LCM of given numbers
