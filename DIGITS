@@ -19,3 +19,28 @@ if(flag==0):
 
 2.      Program to count the occurrence of digit
 
+# your code goes here
+num=int(input())
+a=int(input())
+flag=0
+while(num!=0):
+	rem=num%10
+	if(rem==a):
+		flag+=1
+	num=num//10
+print(flag)
+if(flag==0):
+	print(a,"number NOT FOUND in the digit")
+	
+================================================================================================================================
+
+
+num=int(input())
+t=num
+while(num>=10):
+	num=num//10
+print(num)
+
+last=t%10
+print(last)
+
