@@ -1,0 +1,15 @@
+#PF-Tryout
+
+def guess_number(number_in_mind):
+    if(number_in_mind<5):
+        print ('Number is low')
+    elif(number_in_mind>5):
+        print ('Number is high')
+    else:
+        print ('You have got it right!!!')
+
+#Provide different values for number_in_mind and test your program
+guess_number(4)
+
+=====================================================================================================================
+
