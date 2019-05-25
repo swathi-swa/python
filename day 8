@@ -13,3 +13,25 @@ print(square_root(num3))
 
 square_root2= lambda num3:math.sqrt(num3)
 print(square_root2(num3))
+
+====================================================================================================================
+
+# your code goes here
+#PF-Exer-39
+#This verification is based on string match.
+
+principal_amount=20
+duration=10
+rate_of_interest=10
+
+simple_interest = lambda x,y,z:(x*y*z)/100
+
+    
+
+if(simple_interest(principal_amount,duration,rate_of_interest)>1000):
+    print("Platinum Member")
+else:
+    print("Gold Member")
+
+
+============================================================================================================================
