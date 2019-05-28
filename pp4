@@ -1,0 +1,15 @@
+Calender Functions
+Write the program to execute the following methods and verify the output
+
+calendar(year,w = 2,l = 1,c = 6)
+firstweekday( )
+isleap(year)
+leapdays(y1,y2)
+month(year,month,w = 2,l = 1)
+monthcalendar(year,month) 
+monthrange(year,month)
+prcal(year,w = 2,l = 1,c = 6)
+prmonth(year,month,w = 2,l = 1)
+setfirstweekday(weekday)
+timegm(tupletime)
+weekday(year,month,day)

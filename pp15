@@ -1,0 +1,29 @@
+1. Write a program with the following structure
+1.1 Class -> Calc
+1.2 Method -> add
+1.3 Method -> sub
+1.4 Method -> mul
+1.5 Method -> div
+Receive two parameter for processing in each method and display the result.
+
+
+2. Write a program with the following structure
+2.1 Class -> Calc
+2.2 Constructor which will assign the value for 2 variable a and b
+2.3 Method -> add
+2.4 Method -> sub
+2.5 Method -> mul
+2.6 Method -> div
+Consider the instance variable for processing in each method and display the result.
+
+
+3. Write a program with the following structure
+3.1 Class -> Calc
+3.2 Two variable a,b should be declared as static
+3.3 Static Method -> 'set' (which will assign the value for 2 variable a and b)
+3.4 Static Method -> add
+3.5 Static Method -> sub
+3.6 Static Method -> mul
+3.7 Static Method -> div
+Consider the Static variable for processing in each method and display the result. 
+Call all the methods with out creating object for the class. (As all are static)

@@ -1,0 +1,8 @@
+	
+Due: May 18
+Random method implementation
+1. Write a program to choose random item from a list, tuple, or string.
+2. Write a program to randomly select element from range(start, stop, step)
+3. Write a program to randomly select element from range 0 - 1 with floating point value
+4. Write a program to randomizes the items of a list in place
+5. Write a program to randomly select element from specified range with floating point value
