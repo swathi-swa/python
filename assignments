@@ -283,6 +283,36 @@ Consider the instance variable for processing in each method and display the res
 Consider the Static variable for processing in each method and display the result. 
 Call all the methods with out creating object for the class. (As all are static)
 
+--------------------------------------------------------------------------------------------------------
 
+pp16
+	
+Due: May 29
+Class and Object Basics
+1. Create a empty class.
+2. Perform the following operation for the class
+2.1 Create a class with variables and methods of public category. 
+2.2 Create Object for the class.
+2.3 Access the class variables and methods with the created object
+3. Perform the following operation for the class
+3.1 Create a class 'Sample' with variables (x,y,z) and assign the value to the variables
+3.2 Write a methods (display() to display the value of x,y,z) of public category.
+3.3 Create the object for the class Sample and call the display method
+3.4 With the object access the variables x,y and z outside the class.
+4. Perform the following operation for the class
+4.1 Create a class 'Sample' with variables (x,y,z of private category) and assign the value to the variables
+4.2 Write a methods (display() to display the value of x,y,z) of public category.
+4.3 Create the object for the class Sample and call the display method
+4.4 With the object access the variables x,y and z outside the class.
+5. Perform the following operation for the class
+5.1 Create a class 'Sample' with variables (x,y,z of private category) and assign the value to the variables
+5.2 Write a methods (display() to display the value of x,y,z) of private category.
+5.3 Create the object for the class Sample and call the display method
+5.4 With the object access the variables x,y and z outside the class
+6. Perform the following operation for the class
+6.1 Create a class 'Sample' with variables (x,y,z of private category) and assign the value to the variables
+6.2 Write a methods (display() to display the value of x,y,z) of private category.
+6.3 Write a method (calldisplay() to call the display method) of general category.
+6.4 Create the object for the class Sample and call the calldisplay method
 
 
