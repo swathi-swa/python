@@ -195,7 +195,30 @@ if __name__ == '__main__':
     print(result)
     
  ---------------------------------------------------------------------------------------------------------------------------
- 
-11.
+11.                         Find the Runner-Up Score
+        Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. 
+        You are given scores n. Store them in a list and find the score of the runner-up.
+
+Sample Input 0
+
+5
+2 3 6 6 5
+Sample Output 0
+
+5
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    s=max(arr)
+    for i in range (0,n):
+        if s==max(arr):
+            arr.remove(max(arr))
+    print(max(arr))
+    
+ ----------------------------------------------------***********************************-----------------------------------*******************************************-------------------------------------------------------
+
 
 
