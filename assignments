@@ -315,4 +315,24 @@ Class and Object Basics
 6.3 Write a method (calldisplay() to call the display method) of general category.
 6.4 Create the object for the class Sample and call the calldisplay method
 
+-----------------------------------------------------------------------------------------------------------------
+
+pp17
+
+	
+Due: May 29
+Constructor Example
+1. Write a program with a class name, constructor(to initialize the instance value by receiving data from user), and method(to display the value).
+2. Write a program with a class name, constructor(to initialize the instance value by receiving data as parameters), and method(to display the value).
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+pp18
+
+	
+Due: May 29
+Instance of Object example program
+1. Write a program to declare the variables for the particular object and access the variables.
+2. Write a program to declare the variables inside the method and access the variables.
 
