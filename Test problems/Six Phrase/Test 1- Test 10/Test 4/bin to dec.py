@@ -1,0 +1,9 @@
+n=int(input())
+c=0
+i=0
+while(n!=0):
+  d=n%10
+  c=c+d*pow(2,i)
+  n=n//10
+  i=i+1
+print(c,end="")
