@@ -1,0 +1,13 @@
+d=input()
+m=len(d)
+n=int(input())
+t=n
+c=0
+while(n!=0):
+  re=n%10
+  c=s+re**m
+  n=n//10
+if(c==t):
+  print("YES",end="")
+else:
+  print("NO",end="")
