@@ -13,3 +13,15 @@ for i in range(l):
         else:
             s.append(i)
 print(c)
+
+
+
+Sample Input 0
+
+((()
+Sample Output 0
+
+2
+Explanation 0
+
+The longest valid brackets are '()'. Length is 2.
